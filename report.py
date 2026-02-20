@@ -56,5 +56,5 @@ plt.ylabel("Total Payments")
 plt.savefig("payments_by_district.png")
 plt.show()
 
-district_sum.to_csv("district_report.csv")
-district_sum.to_excel("district_report.xlsx")
+district_sum.to_csv("reports/district_report.csv")
+district_sum.to_excel("reports/district_report.xlsx")
